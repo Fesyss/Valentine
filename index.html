@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.9.1/lottie.min.js"></script>
+  <!-- Ensure proper scaling on mobile devices -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>For my beloved Valentine</title>
+</head>
+<body>
+  <!-- Wrap sections in a container for scroll snapping (optional) -->
+  <div class="container">
+    <!-- Section 1 -->
+    <section class="section" id="section1">
+      <h1>Це тобі</h1>
+      <div class="grid">
+        <h2>Моїй <br> Чарівній!</h2>
+      </div>
+    </section>
+
+    <!-- Envelope Modal Overlay (for Section 2) -->
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal-content">
+        <p>З Днем Святого Валентина, моя найдорогоцінніша!
+
+            Сьогодні – день закоханих, і я не можу не скористатися цією миттю, щоб сказати тобі, як сильно я тебе люблю. Моє серце наповнюється теплотою та захватом щоразу, коли бачу твої очі, чую твій голос, відчуваю твій сміх. Ти – мій світ, моя натхненниця, та моя підтримка у кожному життєвому випробуванні.
+            
+            Мені подобається все в тобі: твоя щирість, твій погляд на життя, кожна твоя риса, яка робить тебе неповторною. Ми разом пройшли через вогонь і воду, і кожен спільний момент лише зміцнює нашу любов. Ти – моя опора, мій найцінніший скарб, і я щасливий, що маю тебе поруч.
+            
+            Дякую тобі за кожен день, за кожну посмішку та за ту любов, яку ми ділимо. Бажаю, щоб наше життя було сповнене гармонії, радості та незабутніх моментів. Я кохаю тебе безмежно і завжди буду поруч, готовий підтримувати, надихати та берегти наше кохання.
+            
+            З любов’ю, завжди твій.</p>
+        <button id="closeEnvelopeModal" class="close-btn">Close</button>
+      </div>
+    </div>
+
+    <!-- Section 2: Envelope -->
+    <section class="section" id="section2">
+      <h1>Відкрий Мене!</h1>
+      <div class="grid-envelope" id="envelopeWrapper">
+        <div class="wrapper">
+          <div class="lid one"></div>
+          <div class="lid two"></div>
+          <div class="envelope"></div>
+          <div class="letter">
+            <p>Моя Кохана<br> Валентинна</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Photo Gallery -->
+    <section class="section" id="section3">
+      <h1>Дещо зі спогадів</h1>
+      <div class="photo-grid">
+        <!-- Replace the src values with your actual image paths -->
+        <div class="photo-item">
+          <img src="photo1.jpeg" alt="Photo 1" />
+        </div>
+        <div class="photo-item">
+          <img src="photo2.jpeg" alt="Photo 2" />
+        </div>
+        <div class="photo-item">
+          <img src="photo3.jpeg" alt="Photo 3" />
+        </div>
+        <div class="photo-item">
+          <img src="photo4.jpeg" alt="Photo 4" />
+        </div>
+        <div class="photo-item">
+          <img src="photo5.jpeg" alt="Photo 5" />
+        </div>
+        <div class="photo-item">
+          <img src="photo6.jpeg" alt="Photo 6" />
+        </div>
+        <!-- Add more photo items as needed -->
+      </div>
+    </section>
+
+    <!-- Photo Modal Overlay -->
+    <div class="modal-overlay" id="photoModal">
+      <div class="modal-content">
+        <h2>love you</h2>
+        <img src="" alt="Expanded Photo" id="modalImage" />
+        <button id="closePhotoModal" class="close-btn">Close</button>
+      </div>
+    </div>
+    <!-- Section 4: Lottie Animation -->
+  <section class="section" id="section4">
+    <h1>Із днем  </h1>
+    <h1> Святого Валентина </h1>
+    <div id="lottie-container"></div>
+    <h2> Я тебе ДУЖЕЕЕ Люблю</h2>
+  </section>
+
+  </div>
+
+  
+  <script src="script.js"></script>
+</body>
+</html>
